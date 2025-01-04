@@ -20,7 +20,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
-    padding-block: 2rem;
+    padding-block: 2rem 1rem;
 }
 
 .btn{
@@ -40,7 +40,7 @@ input{
 .form-group{
     display: flex;
     align-items: center;
-    gap:.5rem
+    gap:.5rem;
 }
 
 
@@ -51,8 +51,10 @@ input{
     background-color: whitesmoke;
 }
 
-/* 
-.boardItem{
-    background-color: yellow;
-    border: 1px solid red;
-} */
+/* size alert */
+.size-error{
+    color: crimson;
+    display: block;
+    text-align: center;
+    padding-bottom: 2rem;
+}

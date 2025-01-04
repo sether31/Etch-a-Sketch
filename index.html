@@ -9,13 +9,14 @@
 <body>
 
     <section class="btn-container">
-        <form class="form-group">
-            <input type="number" name="board-size" id="board-size">
+        <div class="form-group">
+            <input type="number" name="board-size" id="board-size" placeholder="16 - 100" min>
             <button type="submit" class="btn-size btn">
                 Choose size
             </button>
-        </form>
+        </div>
     </section>
+    <p class="size-error"></p>
 
     <section class="container board">
 
