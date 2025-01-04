@@ -9,6 +9,7 @@
 body{
     font-family: system-ui, sans-serif;
     background: #CBCBCB;
+    color: #101820ff;
 }
 
 .container{  
@@ -30,6 +31,11 @@ body{
     border-radius: .3rem;
 }
 
+h1{
+    text-align: center;
+    padding-top: 1rem;
+}
+
 input{
     padding: .5rem;
     width: 100px;
@@ -46,7 +52,6 @@ input{
 
 .board{
     display: grid;
-    gap: .2rem;
     box-shadow: 1px 1px 5px #000;
     background-color: whitesmoke;
 }
